@@ -140,7 +140,7 @@ if(auth.signup?.username){
                 type="submit"
                 isLoading={formikProps.isSubmitting}
               >
-                Sign Up
+                Sign Up to the system
               </Button>
             </Form>
           )}

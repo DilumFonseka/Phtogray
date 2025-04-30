@@ -34,18 +34,13 @@ const Sidebar = () => {
       onOpen();
     } else if (tab === "About Us") {
       navigate("/about");
-    } else if(tab==="Reels"){
-      navigate("reels")
-    }
-    else if(tab==="Create Reels"){
-      handleOpenCreateReelModal()
     }
     else if(tab==="Notifications"){
       navigate("/notifications")
     }
-    else if(tab==="Create Story"){
-      navigate("/create-story")
-    }
+    // else if(tab==="Create Story"){
+    //   navigate("/create-story")
+    // }
     else if(tab==="Learning Plan"){
       navigate("/learning_plan")
     }
